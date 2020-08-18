@@ -31,7 +31,7 @@ At this step i look through the data to see what information i could find.
 
 ![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/images/age_dist.png "Age Distribution")
 ![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/images/sentiment_count.png "Sentiment Count")
-![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/sentiment_percentage.png "Sentiment Percentage")
+![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/images/sentiment_percentage.png "Sentiment Percentage")
 
 ## Data Preprocessing, Feature Engineering, and More EDA
 
@@ -47,10 +47,10 @@ The cleaning processes i did are:
 
 I can then look closer in which word showed up frequently in each of the processed text.
 
-![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/processed_text.png "Processed Text")
-![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/common_word_ex.png "Most Common Word Example")
-![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/common_word_ex2.png "Most Common Word Example (Word Cloud)")
-![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/common_bigram_ex.png "Most Common Bigram Example")
+![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/images/processed_text.png "Processed Text")
+![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/images/common_word_ex.png "Most Common Word Example")
+![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/images/common_word_ex2.png "Most Common Word Example (Word Cloud)")
+![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/images/common_bigram_ex.png "Most Common Bigram Example")
 
 # Machine Learning Model
 
@@ -62,9 +62,9 @@ The model i choose in this project are:
 
 After training each model, i  conclude that the best model we will use for this case is Multinomial Naive Bayes on Alphabet-Only Text without TF-IDF. Besides looking at the results, it's also because Multinomial Naive Bayes doesn't consume as much time as the other models we're using.
 
-![Alt Text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/conf_title.png "Confusion Matrix Title")
-![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/conf_review.png "Confusion Matrix Review")
-![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/conf_comb.png "Confusion Matrix Combination")
+![Alt Text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/images/conf_title.png "Confusion Matrix Title")
+![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/images/conf_review.png "Confusion Matrix Review")
+![alt text](https://github.com/theis19/Sentiment-Analysis-E-Commerce/blob/master/images/conf_comb.png "Confusion Matrix Combination")
 
 ## Conclusion
 
